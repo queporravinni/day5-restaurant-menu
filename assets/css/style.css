@@ -1,0 +1,46 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+}
+body{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.card1{
+	background-image:url('../img/brunch.png');
+}
+.card2{
+	background: url('../img/burguer.png');
+}
+.card3{
+	background: url('../img/steak.png');
+}
+.card4{
+	background: url('../img/dinner.png');
+}
+.card-estilizado{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+.card-estilizado:hover{
+	opacity: 1;
+}
+.card-header{
+	padding: 0px!important;
+	height: 20rem;
+}
+.text-container{
+	color: white;
+	opacity: 1;
+	width: 60%;
+	font-size: 45px;
+	text-shadow: 1px 1px 1px #000;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'Boogaloo', cursive;
+	font-weight: 800;
+
+}
