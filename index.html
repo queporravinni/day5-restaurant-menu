@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Boogaloo|Roboto" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <title>Hello, world!</title>
   </head>
@@ -37,7 +38,7 @@
                             </div>
                             <div class="text-container-desc"></div>
                             <div class="text-container-button ">
-                               <button class="btn btn-primary" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapses">
+                               <button class="btn btn-primary btn-card" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapses">
                                 More +
                                 </button>
                             </div>
@@ -196,14 +197,78 @@
                       </div>
                   
                   </div>
+                  <div class="card">
+                      <div class="card-header card-estilizado card4" id="headingOne">
+                          <div class="text-container p-5">
+                            <div class="text-container-title">
+                              <h1>bar</h1>
+                              
+                            </div>
+                            <div class="text-container-desc"></div>
+                            <div class="text-container-button ">
+                               <button class="btn btn-primary" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
+                                More +
+                                </button>
+                            </div>
+                          </div>
+                      </div>
+                      
+                      <div id="collapse3" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="container">
+                              <div class="row text-center" > 
+                                  <div class="col-lg-6 " style="border-right: 1px solid #000;border-bottom: 1px solid #000;">
+                                    <div class="menu-container">
+                                    <h1>Burgues</h1>
+                                    
+                                    
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="col-lg-6"> 
+                                    <h4>  Texas Two-Step Chicken Burger </h4>
+                                    <h5>  $11.50</h5>
+                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
+                                    avocado, tomato and black olives on Texas toast </p>
+                                    <hr>
+                                    <h4>  Texas Two-Step Chicken Burger </h4>
+                                    <h5>  $11.50</h5>
+                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
+                                    avocado, tomato and black olives on Texas toast </p>
+                                    <hr>
+                                    <h4>  Texas Two-Step Chicken Burger </h4>
+                                    <h5>  $11.50</h5>
+                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
+                                    avocado, tomato and black olives on Texas toast </p>
+                                    <hr>
+                                    <h4>  Texas Two-Step Chicken Burger </h4>
+                                    <h5>  $11.50</h5>
+                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
+                                    avocado, tomato and black olives on Texas toast </p>
+                                  </div>
+                                  <hr>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                  
+                  </div>
                
                </div>
-          
+              <div class="card-estilizado card5 ">
+                  <div class="text-container-title " style="height: 300px;">
+                              <h1>lunch</h1>
+                              <h4>STARTING AT $4.99*</h4>
+                  </div>
+              </div>
           </div>
       
       </div>
     
     </div>
+    <footer class="text-center bg-dark" style="padding-top: 35px; padding-bottom:35px;">
+     Vinicius Longo - Restaurant Menu Day 5  of 30
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -212,6 +277,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $('.show').collapse('hide');
+        $('.btn-card').click(function(){
+          $(this).addClass('animated  tada').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+            $(this).removeClass('animated   tada');
+          });        
+        });
     </script>
   </body>
 </html>
