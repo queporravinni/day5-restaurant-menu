@@ -5,8 +5,149 @@
 body{
 	font-size: 15px;
 	font-family: 'Roboto', sans-serif;
+	background: #F7F7FF;
 
 }
+footer{
+	background: #173040;
+	color: white;
+}
+.col-lg-3{
+	padding: 0px !important;
+}
+.col-lg-9{
+	padding: 0px !important;
+}
+/* AUXILIARES */
+.opacity{
+	opacity: 1;
+	
+}
+.oculto{
+	display: none;
+}
+/* MENU */
+.menulateral-container{
+	width: 100%;
+
+}
+.menulateral-logo img{
+	float: left;
+	line-height: 70px;
+	
+}
+.menulateral-title h1{
+	margin: 0px!important;
+	line-height: 70px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.menulateral-logo-container{
+	background: #fff;
+	padding: 10px;
+}
+.menulateral-logo {
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.menu-itens{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.list-group {	
+    background: red; 
+    background: #fff;
+}
+.menu1 .list-group{
+	/*min-height: 350px !important; 
+}
+.menu2 .list-group{
+	/*min-height: 670px !important;*/ 
+}
+.menu2 .list-group li{
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.menu2 .list-group li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 400;
+	font-size: 25px;
+}
+.info-container{
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding:10px 30px;
+
+}
+.info-card{
+	height: 60px;
+
+}
+.info-logo img{
+	float: left;
+	width: 22px;
+	line-height: 20px;
+	opacity: 0.8;
+	
+
+}
+.info-text{
+	text-align: left !important;
+	margin-left: 40px;
+	line-height: 20px;
+
+}
+.info-logo{
+
+}
+.lunch-menu:hover {
+	
+    background: #25B1ED !important;
+}
+.lunch-menu a:hover {
+	color: #fff!important;
+   
+}
+.hamburguer-menu:hover {
+	
+    background: #25B1ED !important;
+}
+.hamburguer-menu a:hover {
+	color: #fff!important;
+   
+}
+
+.steak-menu:hover {
+	
+    background: #25B1ED !important;
+}
+.steak-menu a:hover {
+	color: #fff!important;
+   
+}
+.bar-menu:hover {
+	
+    background: #25B1ED !important;
+}
+.bar-menu a:hover {
+	color: #fff!important;
+   
+}
+.about-menu:hover {
+	
+    background: #25B1ED !important;
+}
+.about-menu a:hover {
+	color: #fff!important;
+   
+}
+/* CARD IMAGES */
 .card1{
 	background-image:url('../img/brunch.png');
 }
@@ -17,7 +158,19 @@ body{
 	background: url('../img/steak.png');
 }
 .card4{
-	background: url('../img/dinner.png');
+	background: url('../img/bar.png');
+}
+.card5{
+	background:url('../img/restaurant.png');
+	min-height: 321px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+/* CARD CSS */
+.card-body {
+    padding: 0px;
 }
 .card-estilizado{
 	position: relative;
@@ -25,13 +178,20 @@ body{
 	background-size: cover;
 	opacity: 0.7;
 }
-.card-estilizado:hover{
-	opacity: 1;
+.card{
+	border: none !important;
+	background: transparent!important ;
 }
+
 .card-header{
 	padding: 0px!important;
 	height: 20rem;
+
 }
+.card-header:hover{
+	opacity: 1;
+}
+
 .text-container{
 	color: white;
 	opacity: 1;
@@ -42,5 +202,58 @@ body{
 	letter-spacing: 5px;
 	font-family: 'Boogaloo', cursive;
 	font-weight: 800;
+
+}
+.menu-combo{
+	padding: 25px;
+	
+} 
+.menu-combo-op{
+	width: 40%;
+	padding: 10px;
+}
+.title-left h2{
+	font-size: 55px !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Boogaloo', cursive;
+	font-weight: 400;
+	color:rgba(0,0,0,1)!important;
+
+}
+
+.promo-modal-button {
+		font-size: 20px!important;
+		font-weight: 400!important;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: 200!important;
+		    background-color: #2098D1;
+
+		
+}
+button.btn.promo-modal-button {
+	font-weight: 400!important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 760px){
+	.menu-combo-op{
+	width: 100%;
+	padding: 10px;
+	}
 
 }
