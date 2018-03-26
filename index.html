@@ -9,30 +9,98 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Boogaloo|Roboto" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 
-    <title>Hello, world!</title>
+    <title>Day5</title>
   </head>
   <body>
+    <div class="pos-f-t menu1 fixed-bottom" style="background: #F4F4F4;" >
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class=" ">
+            <div class="menulateral-container">
+                    
+                    </div>
+                    <div class="menulateral-logo-container " style="" >
+                      <div class="menulateral-logo text-center" >
+                        <img src="assets/img/menu.png" class="" width="70">
+                        <div class="menulateral-title"><h1>Blue Hill</h1></div>
+                        
+                      </div>
+                     
+                    <ul class="list-group list-group-flush menu-itens">
+                      <li class="list-group-item lunch-menu" ><a href="#lunch">lunch</a></li>
+                      <li class="list-group-item">Hamburguer</li>
+                      <li class="list-group-item">steak</li>
+                      <li class="list-group-item">bar</li>
+                      
+                    </ul>
+                  </div>
+              </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
     <div class="container-fluid">
       <div class="row">
           <div class="col-lg-3">
-              <div class="sticky-top ">
-                  <ul class="list-group list-group-flush">
-                    <img src="restaurant.png"  width="60" alt="" class="mb-4">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
+              <div class="sticky-top menu2 ">
+                  <div class="menulateral-container">
+                  
+                    <ul class="list-group list-group-flush menu-itens text-center">
+                      <li class="list-group-item lunch-menu" ><a href="#lunch">lunch</a></li>
+                      <li class="list-group-item hamburguer-menu"><a href="#hamburguer">Hamburguer</a></li>
+                      <li class="list-group-item steak-menu"><a href="#steak">steak</a></li>
+                      <li class="list-group-item bar-menu"><a href="#bar">bar</a></li>
+                      
+                      <div class="menulateral-logo-container">
+                        <div class="menulateral-logo text-center" >
+                          <img src="assets/img/menu.png" class="" width="70">
+                          <div class="menulateral-title"><h1>Blue Hill</h1></div>
+                        </div>
+                      </div>
+                      <div class="info-container text-center">
+                          <div class="info-card"> 
+                               <div class="info-logo">
+                                    <img src=" assets/img/old-typical-phone.png"> 
+                                </div>
+                                <div class="info-text"> 
+                                    mon - sat
+
+                                    17:00 - 23:00
+                                </div>
+                                <hr>  
+                          </div> 
+                          <div class="info-card"> 
+                                <div class="info-logo">
+                                    <img src=" assets/img/old-typical-phone.png"> 
+                                </div>
+                                <div class="info-text"> 212-539-1776</div>
+                                <hr> 
+                          </div>
+                          <div class="info-card"> 
+                                <div class="info-logo"> 
+                                  <img src="  assets/img/map-marker.png">
+                                </div>
+                                <div class="info-text">
+                                  75 WASHINGTON PL <br>  
+                                 NEW YORK </div>
+                                 <hr> 
+                          </div>  
+                      </div>
+                    </ul>
+
+                  </div>
               </div>
           </div>
-          <div class="col-lg-9">
-               <div id="accordion">
-                  <div class="card">
-                      <div class="card-header card-estilizado card1" id="headingOne">
+          <div class="col-lg-9 " >
+               <div id="accordion" >
+                  <div class="card " id="lunch">
+                      <div class="card-header card-estilizado card1" id="headingOne lunch">
                           <div class="text-container p-5">
-                            <div class="text-container-title">
+                            <div class="text-container-title title-lunch">
                               <h1>lunch</h1>
                               <h4>STARTING AT $4.99*</h4>
                             </div>
@@ -47,48 +115,113 @@
                       
                       <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            <div class="container">
-                              <div class="row text-center" > 
-                                  <div class="col-lg-6 " style="border-right: 1px solid #000;border-bottom: 1px solid #000;">
-                                    <div class="menu-container">
-                                    <h1>Burgues</h1>
-                                    
-                                    
-                                    </div>
-                                    
+                            <div class="container ">
+                              <div class="row"> 
+                                  <div class="col-lg-4 col-md-12 col-sm-12 pt-5 pb-5 border-right border-bottom title-left text-center">  
+                                      <H2> LUNCH COMBOS   
+                                            
+                                      </H2>
+                                      <button type="button" class="btn promo-modal-button hvr-fade" onclick="clicou()">See More</button>
+                                     
+
                                   </div>
-                                  <div class="col-lg-6"> 
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
+                                  <div class="col-lg-8 border-bottom p-5">  
+                                      <div class="menu menu-combo  pt-3 pb-3">  
+                                            <div class="menu-combo-title">
+                                              <h5>  
+                                                LUNCH 1
+                                                <small class="text-muted">$7,99</small>
+                                              </h5>
+                                            </div>
+                                            <div class="menu-combo-desc">
+                                                <p> A bowl of fresh made soup and your choice of a crisp House or Caesar Salad.</p> 
+                                            </div>
+                                      </div>
+                                       <div class="menu menu-combo pt-3 pb-3">  
+                                            <div class="menu-combo-title">
+                                              <h5>  
+                                                LUNCH 1
+                                                <small class="text-muted">$7,99</small>
+                                              </h5>
+                                            </div>
+                                            <div class="menu-combo-desc">
+                                                <p> A bowl of fresh made soup and your choice of a crisp House or Caesar Salad.</p> 
+                                            </div>
+                                      </div>
+                                       <div class="menu menu-combo pt-3 pb-3">  
+                                            <div class="menu-combo-title">
+                                              <h5>  
+                                                LUNCH 1
+                                                <small class="text-muted">$7,99</small>
+                                              </h5>
+                                            </div>
+                                            <div class="menu-combo-desc">
+                                                <p> A bowl of fresh made soup and your choice of a crisp House or Caesar Salad.</p> 
+                                            </div>
+                                      </div>
+                                       <div class="menu menu-combo">  
+                                            <div class="menu-combo-title">
+                                              <h5>  
+                                                LUNCH 1
+                                                <small class="text-muted">$7,99</small>
+                                              </h5>
+                                            </div>
+                                            <div class="menu-combo-desc">
+                                                <p> A bowl of fresh made soup and your choice of a crisp House or Caesar Salad.</p> 
+                                            </div>
+                                      </div>      
                                   </div>
-                                  <hr>
                               </div>
+                              <div class="row"> 
+                                  <div class="col-lg-4 col-md-12 col-sm-12  pt-5 pb-5 border-right  no-border title-left text-center">  
+                                      <H2>STEAKHOUSE LUNCH <br> 
+                                           
+                                      </H2>
+
+
+                                  </div>
+                                  <div class="col-lg-8 col-sm-12 p-0">  
+                                            
+                                            <div class="menu-combo2"> 
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                            </div>  
+                                            
+                                      </div>
+
+                                       
+                                  </div>
+                              </div>
+
                             </div>
                         </div>
                       </div>
-                  
-                  </div>
-                  <div class="card">
+                  <div class="card"  id="hamburguer">
                       <div class="card-header card-estilizado card2" id="headingOne">
                           <div class="text-container p-5">
-                            <div class="text-container-title">
+                            <div class="text-container-title hamburguer-title">
                               <h1>Hamburguer</h1>
                               <h4>STARTING AT $7.99*</h4>
                             </div>
@@ -103,48 +236,60 @@
                       
                       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            <div class="container">
-                              <div class="row text-center" > 
-                                  <div class="col-lg-6 " style="border-right: 1px solid #000;border-bottom: 1px solid #000;">
-                                    <div class="menu-container">
-                                    <h1>Burgues</h1>
-                                    
-                                    
-                                    </div>
-                                    
+                            <div class="container ">
+                                 <div class="row"> 
+                                  <div class="col-lg-4 col-md-12 col-sm-12 pt-5 pb-5 border-right  no-border title-left text-center">  
+                                      <H2>Hamburguers<br> 
+                                           
+                                      </H2>
+
+
                                   </div>
-                                  <div class="col-lg-6"> 
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
+                                  <div class="col-lg-8 col-sm-12 p-0">  
+                                            
+                                            <div class="menu-combo2"> 
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                            </div>  
+                                            
+                                      </div>
+
+                                       
                                   </div>
-                                  <hr>
+                                  
                               </div>
+                             
+                              </div>
+
                             </div>
                         </div>
                       </div>
-                  
-                  </div>
-                  <div class="card">
+                  <div class="card" id="steak">
                       <div class="card-header card-estilizado card3" id="headingOne">
                           <div class="text-container p-5">
-                            <div class="text-container-title">
+                            <div class="text-container-title steak-title">
                               <h1>Steak</h1>
                               <h4>STARTING AT $10.99*</h4>
                             </div>
@@ -160,47 +305,56 @@
                       <div id="collapse2" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <div class="container">
-                              <div class="row text-center" > 
-                                  <div class="col-lg-6 " style="border-right: 1px solid #000;border-bottom: 1px solid #000;">
-                                    <div class="menu-container">
-                                    <h1>Burgues</h1>
-                                    
-                                    
-                                    </div>
-                                    
+                                 <div class="row"> 
+                                  <div class="col-lg-4 col-md-12 col-sm-12 pt-5 pb-5 border-right  no-border title-left text-center">  
+                                      <H2>STEAK<br> 
+                                           
+                                      </H2>
+
+
                                   </div>
-                                  <div class="col-lg-6"> 
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
+                                  <div class="col-lg-8 col-sm-12 p-0">  
+                                            
+                                            <div class="menu-combo2"> 
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                            </div>  
+                                            
+                                      </div>
+
+                                       
                                   </div>
-                                  <hr>
-                              </div>
                             </div>
                         </div>
                       </div>
                   
                   </div>
-                  <div class="card">
-                      <div class="card-header card-estilizado card4" id="headingOne">
+                  <div class="card" id="bar">
+                      <div class="card-header card-estilizado card4" id="headingOne bar">
                           <div class="text-container p-5">
-                            <div class="text-container-title">
+                            <div class="text-container-title bar-title">
                               <h1>bar</h1>
                               
                             </div>
@@ -216,57 +370,67 @@
                       <div id="collapse3" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <div class="container">
-                              <div class="row text-center" > 
-                                  <div class="col-lg-6 " style="border-right: 1px solid #000;border-bottom: 1px solid #000;">
-                                    <div class="menu-container">
-                                    <h1>Burgues</h1>
-                                    
-                                    
-                                    </div>
-                                    
+                               <div class="row"> 
+                                  <div class="col-lg-4 col-md-12 col-sm-12 pt-5 pb-5 border-right  no-border title-left text-center">  
+                                      <H2>drinks<br> 
+                                           
+                                      </H2>
+
+
                                   </div>
-                                  <div class="col-lg-6"> 
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
-                                    <hr>
-                                    <h4>  Texas Two-Step Chicken Burger </h4>
-                                    <h5>  $11.50</h5>
-                                    <p>BBQ-grilled chicken breast topped with Cajun cole slaw, 
-                                    avocado, tomato and black olives on Texas toast </p>
+                                  <div class="col-lg-8 col-sm-12 p-0">  
+                                            
+                                            <div class="menu-combo2"> 
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-left">
+                                                    <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                                <div class="menu-combo-op float-right">  
+                                                  <h5> TESTE</h5>
+                                                    <P> Three grilled steak tacos topped with crispy slaw, fresh pico de gallo, melted cheese and an herb aioli.</P> 
+                                                </div>
+                                            </div>  
+                                            
+                                      </div>
+
+                                       
                                   </div>
-                                  <hr>
-                              </div>
                             </div>
                         </div>
                       </div>
+
                   
                   </div>
+          </div>
+        </div>
+
                
                </div>
-              <div class="card-estilizado card5 ">
-                  <div class="text-container-title " style="height: 300px;">
-                              <h1>lunch</h1>
-                              <h4>STARTING AT $4.99*</h4>
-                  </div>
+               <div class="clearfix"></div>
+                
               </div>
           </div>
       
       </div>
     
     </div>
-    <footer class="text-center bg-dark" style="padding-top: 35px; padding-bottom:35px;">
+    <footer class="text-center " style="padding-top: 35px; padding-bottom:35px;">
      Vinicius Longo - Restaurant Menu Day 5  of 30
     </footer>
 
@@ -275,13 +439,42 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7.1.0/dist/promise.min.js"></script>
+   <script  src="https://unpkg.com/sweetalert2@7.18.0/dist/sweetalert2.all.js"></script>
+   <script src="assets/js/script.js"></script>
+   <script src="assets/js/sweetalert2.all.js"></script>
     <script type="text/javascript">
-        $('.show').collapse('hide');
-        $('.btn-card').click(function(){
-          $(this).addClass('animated  tada').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-            $(this).removeClass('animated   tada');
-          });        
+            $(function(){
+             $('.lunch-menu').on('click',function(){
+             $('.card1').addClass('opacity');
+              $('.title-lunch').addClass('animated  tada ').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+                  $('.title-lunch').removeClass('animated   tada ');
+                  $('.card1').removeClass('opacity');
+                });             
+            });
+             $('.hamburguer-menu').on('click',function(){
+             $('.card2').addClass('opacity');
+              $('.hamburguer-title').addClass('animated  tada ').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+                  $('.hamburguer-title').removeClass('animated   tada ');
+                  $('.card2').removeClass('opacity');
+                });             
+            });
+             $('.steak-menu').on('click',function(){
+             $('.card3').addClass('opacity');
+              $('.steak-title').addClass('animated  tada ').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+                  $('.steak-title').removeClass('animated   tada ');
+                  $('.card3').removeClass('opacity');
+                });             
+            });
+             $('.bar-menu').on('click',function(){
+             $('.card4').addClass('opacity');
+              $('.bar-title').addClass('animated  tada ').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+                  $('.bar-title').removeClass('animated   tada ');
+                  $('.card4').removeClass('opacity');
+                });             
+            });
         });
+        
     </script>
   </body>
 </html>
